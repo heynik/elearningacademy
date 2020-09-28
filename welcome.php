@@ -209,7 +209,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
                         <strong class="d-inline-block mb-2 text-success">New</strong>
-                        <h3 class="mb-0">Materials Links</h3>
+                        <h3 class="mb-0">Resources Links</h3>
                         <div class="mb-1 text-muted">Nov 11</div>
                         <p class="mb-auto">
                         </p>
@@ -226,6 +226,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 
 
 </div>
+
 <footer class="footer  p-3 bg-dark text-white">
     <div class="container">
         <div class="row">
