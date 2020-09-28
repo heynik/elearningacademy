@@ -101,7 +101,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                         <h3 class="mb-0">Assignment File 1</h3>
                         <div class="mb-1 text-muted">Aug 13</div>
                         <p class="mb-auto"></p>
-                        <a href="assignment.php"
+                        <a href="downloadpdf.php?file=1" target="_blank"
                             class="stretched-link">Download Here</a>
                     </div>
                     
@@ -126,7 +126,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                         <div class="mb-1 text-muted">Jul 25</div>
                         <p class="card-text mb-auto">
                         </p>
-                        <a href="attendance.php"
+                        <a href="resources/1.mp4"
                             class="stretched-link">Watch Here</a>
                     </div>
                     
@@ -140,7 +140,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                         <h3 class="mb-0">Assignment Video 1</h3>
                         <div class="mb-1 text-muted">Nov 11</div>
                         <p class="mb-auto"></p>
-                        <a href="quiz.php"
+                        <a href="downloadvideo.php?file=1" target="_blank"
                             class="stretched-link">Download Here</a>
                     </div>
                     

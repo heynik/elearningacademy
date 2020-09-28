@@ -126,9 +126,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                         <a href="timetable.php"
                             class="stretched-link">Open</a>
                     </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/3.jpg" alt="">
-                    </div>
+                    
                 </div>
             </div>
             <div class="col-md-6">
@@ -142,9 +140,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                         <a href="assignment.php"
                             class="stretched-link">Open</a>
                     </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/3.jpg" alt="">
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -163,9 +159,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                         <a href="attendance.php"
                             class="stretched-link">Open</a>
                     </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/3.jpg" alt="">
-                    </div>
+                    
                 </div>
             </div>
             <div class="col-md-6">
@@ -179,9 +173,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                         <a href="quiz.php"
                             class="stretched-link">Do</a>
                     </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/3.jpg" alt="">
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -199,9 +191,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                         <a href="feedback.php"
                             class="stretched-link">Fill Feedback Form Here </a>
                     </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/3.jpg" alt="">
-                    </div>
+                    
                 </div>
             </div>
             <div class="col-md-6">
@@ -216,9 +206,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                         <a href="link.php"
                             class="stretched-link">Open</a>
                     </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <img class="bd-placeholder-img" width="200" height="250" src="img/3.jpg" alt="">
-                    </div>
+                    
                 </div>
             </div>
         </div>
