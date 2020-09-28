@@ -119,13 +119,12 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">Ethical Hacking</strong>
-                        <h3 class="mb-0">Tails OS Anonymity </h3>
+                        <strong class="d-inline-block mb-2 text-primary">New</strong>
+                        <h3 class="mb-0">Time Table </h3>
                         <div class="mb-1 text-muted">Aug 13</div>
-                        <p class="card-text mb-auto">Installing Tail OS in VMware Workstation pro for Accessing Deep Web
-                            and Dark Web, Onion links, hidden wiki.</p>
-                        <a href="https://medium.com/cyberxerx/fully-anonymous-yourself-by-tails-os-e50d119e27e"
-                            class="stretched-link">Continue reading</a>
+                        <p class="card-text mb-auto"></p>
+                        <a href="timetable.php"
+                            class="stretched-link">Open</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <img class="bd-placeholder-img" width="200" height="250" src="img/3.jpg" alt="">
@@ -136,12 +135,12 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-success">Ethical Hacking</strong>
-                        <h3 class="mb-0">Setup Proxychains</h3>
+                        <strong class="d-inline-block mb-2 text-success">New</strong>
+                        <h3 class="mb-0">Assignments</h3>
                         <div class="mb-1 text-muted">Aug 13</div>
-                        <p class="mb-auto">How to Setup PROXYCHAINS in Kali-Linux by Terminal.</p>
-                        <a href="https://medium.com/cyberxerx/how-to-setup-proxychains-in-kali-linux-by-terminal-618e2039b663"
-                            class="stretched-link">Continue reading</a>
+                        <p class="mb-auto"></p>
+                        <a href="assignment.php"
+                            class="stretched-link">Open</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <img class="bd-placeholder-img" width="200" height="250" src="img/3.jpg" alt="">
@@ -156,13 +155,13 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">Security</strong>
-                        <h3 class="mb-0">Windows Hacking</h3>
+                        <strong class="d-inline-block mb-2 text-primary">Latest</strong>
+                        <h3 class="mb-0">Attendance</h3>
                         <div class="mb-1 text-muted">Jul 25</div>
-                        <p class="card-text mb-auto">Hands-on Ethical Hacking: Hack Window login in just a few steps.
+                        <p class="card-text mb-auto">
                         </p>
-                        <a href="https://medium.com/cyberxerx/hands-on-ethical-hacking-hack-window-login-in-just-a-few-steps-1f16f11924ec"
-                            class="stretched-link">Continue reading</a>
+                        <a href="attendance.php"
+                            class="stretched-link">Open</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <img class="bd-placeholder-img" width="200" height="250" src="img/3.jpg" alt="">
@@ -173,12 +172,12 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-success">Ethical Hacking</strong>
-                        <h3 class="mb-0">Exploit's Searching </h3>
+                        <strong class="d-inline-block mb-2 text-success">New</strong>
+                        <h3 class="mb-0">Quiz</h3>
                         <div class="mb-1 text-muted">Nov 11</div>
-                        <p class="mb-auto">How to Search the Exploit by Terminal Using Searchsploit in Kali Linux.</p>
-                        <a href="https://medium.com/@heynik/how-to-search-the-exploit-by-terminal-using-searchsploit-in-kali-linux-7a90193b3ddf"
-                            class="stretched-link">Continue reading</a>
+                        <p class="mb-auto"></p>
+                        <a href="quiz.php"
+                            class="stretched-link">Do</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <img class="bd-placeholder-img" width="200" height="250" src="img/3.jpg" alt="">
@@ -193,13 +192,12 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">Development</strong>
-                        <h3 class="mb-0">DirSearch</h3>
+                        <strong class="d-inline-block mb-2 text-primary">New</strong>
+                        <h3 class="mb-0">Feedback Form</h3>
                         <div class="mb-1 text-muted">Nov 12</div>
-                        <p class="card-text mb-auto">Web App Penetration Testing: Brute Forcing Directories by
-                            DirSearch.</p>
-                        <a href="https://medium.com/cyberxerx/tryhackme-advent-of-cyber-b050c7aa86f2"
-                            class="stretched-link">Continue reading</a>
+                        <p class="card-text mb-auto"></p>
+                        <a href="feedback.php"
+                            class="stretched-link">Fill Feedback Form Here </a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <img class="bd-placeholder-img" width="200" height="250" src="img/3.jpg" alt="">
@@ -210,13 +208,13 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-success">CyberSecurity</strong>
-                        <h3 class="mb-0">Insecure Deserialization</h3>
+                        <strong class="d-inline-block mb-2 text-success">New</strong>
+                        <h3 class="mb-0">Materials Links</h3>
                         <div class="mb-1 text-muted">Nov 11</div>
-                        <p class="mb-auto">Tryhackme OWASP Top 10 Challenge.
+                        <p class="mb-auto">
                         </p>
-                        <a href="https://medium.com/@heynik/tryhackme-owasp-top-10-challenge-30dc943866f7"
-                            class="stretched-link">Continue reading</a>
+                        <a href="link.php"
+                            class="stretched-link">Open</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <img class="bd-placeholder-img" width="200" height="250" src="img/3.jpg" alt="">
