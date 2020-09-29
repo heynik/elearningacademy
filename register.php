@@ -73,7 +73,7 @@ if(empty($username_err) && empty($password_err) && empty($confirm_password_err))
         // Try to execute the query
         if (mysqli_stmt_execute($stmt))
         {
-            header("location: login.php");
+            header("location: index.php");
         }
         else{
             echo "Something went wrong... cannot redirect!";
@@ -110,7 +110,7 @@ mysqli_close($conn);
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
   <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="register.php">Register</a>

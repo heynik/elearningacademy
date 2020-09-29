@@ -101,7 +101,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 
 
                     <i class="fa fa-envelope fa-lg"></i> Email: <a
-                        href="mailto:cyberxerx@gmail.com">elearning@gmail.com</a>
+                        href="mailto:cyberxerx@gmail.com">ElearnAcademy@gmail.com</a>
                 </address>
             </div>
             <div class="col-12 col-sm-4 align-self-center">
@@ -112,7 +112,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
         </div>
         <div class="row justify-content-center">
             <div class="col-auto"><br>
-                <p>© Copyright 2020 Elearning</p>
+                <p>© Copyright 2020 Elearn Academy</p>
             </div>
         </div>
     </div>
@@ -121,6 +121,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 
 
 </footer>
+
 
 
     <!-- Optional JavaScript -->
