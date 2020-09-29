@@ -76,11 +76,11 @@ if(empty($err))
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>PHP login system!</title>
+    <title>Elearn Academy</title>
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Php Login System</a>
+  <a class="navbar-brand" href="#">Elearn Academy</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -95,15 +95,27 @@ if(empty($err))
       <li class="nav-item">
         <a class="nav-link" href="#">Login</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="logout.php">Logout</a>
-      </li>
+     
 
       
      
     </ul>
   </div>
 </nav>
+
+<header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h1>Welcome To Elearn Academy </h1>
+                    <p>Think Smart, Learn Smart, Be Smart!!!</p>
+                    <br>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
 
 <div class="container mt-4">
 <h3>Please Login Here:</h3>
@@ -125,7 +137,40 @@ if(empty($err))
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 
+<div>
+        <br>
+    </div>
+    
+</div>
 
+
+    <footer class="footer  p-3 bg-dark text-white">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-7 col-sm-5">
+                
+                <address>
+                    <br>
+
+
+                    <i class="fa fa-envelope fa-lg"></i> Email: <a
+                        href="mailto:cyberxerx@gmail.com">ElearnAcademy@gmail.com</a>
+                </address>
+            </div>
+            <div class="col-12 col-sm-4 align-self-center">
+                <div class="text-center">
+
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto"><br>
+                <p>© Copyright 2020 Elearn Academy</p>
+            </div>
+        </div>
+    </div>
+    
 
 </div>
 
