@@ -1,70 +1,5 @@
-<?php
-//This script will handle login
-session_start();
-
-// check if the user is already logged in
-if(isset($_SESSION['username']))
-{
-    header("location: welcome.php");
-    exit;
-}
-require_once "config.php";
-
-$username = $password = "";
-$err = "";
-
-// if request method is post
-if ($_SERVER['REQUEST_METHOD'] == "POST"){
-    if(empty(trim($_POST['username'])) || empty(trim($_POST['password'])))
-    {
-        $err = "Please enter username + password";
-    }
-    else{
-        $username = trim($_POST['username']);
-        $password = trim($_POST['password']);
-    }
 
 
-if(empty($err))
-{
-    $sql = "SELECT id, username, password FROM users WHERE username = ?";
-    $stmt = mysqli_prepare($conn, $sql);
-    mysqli_stmt_bind_param($stmt, "s", $param_username);
-    $param_username = $username;
-    
-    
-    // Try to execute this statement
-    if(mysqli_stmt_execute($stmt)){
-        mysqli_stmt_store_result($stmt);
-        if(mysqli_stmt_num_rows($stmt) == 1)
-                {
-                    mysqli_stmt_bind_result($stmt, $id, $username, $hashed_password);
-                    if(mysqli_stmt_fetch($stmt))
-                    {
-                        if(password_verify($password, $hashed_password))
-                        {
-                            // this means the password is corrct. Allow user to login
-                            session_start();
-                            $_SESSION["username"] = $username;
-                            $_SESSION["id"] = $id;
-                            $_SESSION["loggedin"] = true;
-
-                            //Redirect user to welcome page
-                            header("location: welcome.php");
-                            
-                        }
-                    }
-
-                }
-
-    }
-}    
-
-
-}
-
-
-?>
 
 <!doctype html>
 <html lang="en">
@@ -86,18 +21,19 @@ if(empty($err))
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
   <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item ">
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="register.php">Register</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="index.php">Login</a>
+        <a class="nav-link" href="index.php">Login</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.php">About</a>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">About</a>
       </li>
+     
 
       
      
@@ -109,7 +45,7 @@ if(empty($err))
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
-                    <h1>Welcome To Elearn Academy </h1>
+                    <h1>Elearn Academy </h1>
                     <p>Think Smart, Learn Smart, Be Smart!!!</p>
                     <br>
 
@@ -119,26 +55,68 @@ if(empty($err))
 
     </header>
 
-<div class="container mt-4">
-<h3>Please Login Here:</h3>
-<hr>
 
-<form action="" method="post">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Username</label>
-    <input type="text" name="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Username">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
-  </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+    <div class="container my-4">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">ABOUT THE CyberXERX <span class="text-muted">It’ll blow your
+                        mind.</span></h2>
+                <p class="lead"></p>
+            </div>
+            <div class="col-md-5">
+                <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img" width="500" height="500" src="img/d.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="container my-4">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7 order-md-1">
+                <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img" width="500" height="500" src="img/b.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-5 order-md-2">
+                <h2 class="mt-0 featurette-heading">what we do? <span class="text-muted">It’ll blow your
+                        mind.</span></h2>
+                <p class="lead"></p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7 ">
+                <h2 class="featurette-heading">how we help you? <span class="text-muted">It’ll blow your
+                        mind.</span></h2>
+                <p class="lead"></p>
+            </div>
+            <div class="col-md-5">
+                <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img" width="500" height="500" src="img/e.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7 order-md-1">
+                <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img" width="500" height="500" src="img/c.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-5 order-md-2">
+                <h2 class="featurette-heading">what we do? <span class="text-muted">It’ll blow your
+                        mind.</span></h2>
+                <p class="lead"></p>
+            </div>
+            
+        </div>
+    </div>
 <div>
         <br>
     </div>
