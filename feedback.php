@@ -11,6 +11,9 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 ?>
 
 
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -101,7 +104,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
               <br>
            </div>
             <div class="col-12 col-md-9">
-                <form>
+                <form action="contactform.php" method="post">
                     <div class="form-group row">
                         <label for="firstname" class="col-md-2 col-form-label">First Name</label>
                         <div class="col-md-10">
