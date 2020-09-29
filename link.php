@@ -85,7 +85,102 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 
     </header>
 
+    <div class="container my-4">
+        <div class="row mb-2 __web-inspector-hide-shortcut__">
+            <div class="col">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary"></strong>
+                        <h3 class="mb-0">Courses Links</h3>
+                        <div class="mb-1 text-muted"></div>
+                        <p class="card-text mb-auto"></p>
+                        <a href="https://progate.com/courses"
+                            class="stretched-link"></a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+      </div>
+    </div>
+    <div class="container my-4">
+        <div class="row mb-2 __web-inspector-hide-shortcut__">
+            <div class="col">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary"></strong>
+                        <h3 class="mb-0">Projects Links</h3>
+                        <div class="mb-1 text-muted"></div>
+                        <p class="card-text mb-auto"></p>
+                        <a href="https://progate.com/"
+                            class="stretched-link"></a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+      </div>
+    </div>
+    <div class="container my-4">
+        <div class="row mb-2 __web-inspector-hide-shortcut__">
+            <div class="col">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary"></strong>
+                        <h3 class="mb-0">Tools Links</h3>
+                        <div class="mb-1 text-muted"></div>
+                        <p class="card-text mb-auto"></p>
+                        <a href="https://www.apachefriends.org/index.html"
+                            class="stretched-link"></a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+      </div>
+    </div>
+    <div class="container my-4">
+        <div class="row mb-2 __web-inspector-hide-shortcut__">
+            <div class="col">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary"></strong>
+                        <h3 class="mb-0">Softwares Links</h3>
+                        <div class="mb-1 text-muted"></div>
+                        <p class="card-text mb-auto"></p>
+                        <a href="https://code.visualstudio.com/download"
+                            class="stretched-link"></a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+      </div>
+    </div>
 
+    <div class="container my-4">
+        <div class="row mb-2 __web-inspector-hide-shortcut__">
+            <div class="col">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary"></strong>
+                        <h3 class="mb-0">Other Reference Links</h3>
+                        <div class="mb-1 text-muted"></div>
+                        <p class="card-text mb-auto"></p>
+                        <a href="https://www.wikipedia.org/"
+                            class="stretched-link"></a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+      </div>
+    </div>
 
 
 

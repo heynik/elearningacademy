@@ -130,9 +130,9 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">New</strong>
+                        <strong class="d-inline-block mb-2 text-primary">Updated</strong>
                         <h3 class="mb-0">Time Table </h3>
-                        <div class="mb-1 text-muted">Aug 13</div>
+                        <div class="mb-1 text-muted">Sep 28</div>
                         <p class="card-text mb-auto"></p>
                         <a href="timetable.php"
                             class="stretched-link">Open</a>
@@ -146,10 +146,10 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                     <div class="col p-4 d-flex flex-column position-static">
                         <strong class="d-inline-block mb-2 text-success">New</strong>
                         <h3 class="mb-0">Assignments</h3>
-                        <div class="mb-1 text-muted">Aug 13</div>
+                        <div class="mb-1 text-muted">Sep 28</div>
                         <p class="mb-auto"></p>
                         <a href="assignment.php"
-                            class="stretched-link">Open</a>
+                            class="stretched-link">View</a>
                     </div>
                     
                 </div>
@@ -164,11 +164,11 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                     <div class="col p-4 d-flex flex-column position-static">
                         <strong class="d-inline-block mb-2 text-primary">Latest</strong>
                         <h3 class="mb-0">Attendance</h3>
-                        <div class="mb-1 text-muted">Jul 25</div>
+                        <div class="mb-1 text-muted">Sep 28</div>
                         <p class="card-text mb-auto">
                         </p>
                         <a href="attendance.php"
-                            class="stretched-link">Open</a>
+                            class="stretched-link">See Here</a>
                     </div>
                     
                 </div>
@@ -179,10 +179,10 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                     <div class="col p-4 d-flex flex-column position-static">
                         <strong class="d-inline-block mb-2 text-success">New</strong>
                         <h3 class="mb-0">Quiz</h3>
-                        <div class="mb-1 text-muted">Nov 11</div>
+                        <div class="mb-1 text-muted">Sep 28</div>
                         <p class="mb-auto"></p>
                         <a href="quiz.php"
-                            class="stretched-link">Do</a>
+                            class="stretched-link">Take Quiz</a>
                     </div>
                     
                 </div>
@@ -195,9 +195,9 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                 <div
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">New</strong>
+                        <strong class="d-inline-block mb-2 text-primary">Compulsory</strong>
                         <h3 class="mb-0">Feedback Form</h3>
-                        <div class="mb-1 text-muted">Nov 12</div>
+                        <div class="mb-1 text-muted">Sep 28</div>
                         <p class="card-text mb-auto"></p>
                         <a href="feedback.php"
                             class="stretched-link">Fill Feedback Form Here </a>
@@ -211,11 +211,11 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                     <div class="col p-4 d-flex flex-column position-static">
                         <strong class="d-inline-block mb-2 text-success">New</strong>
                         <h3 class="mb-0">Resources Links</h3>
-                        <div class="mb-1 text-muted">Nov 11</div>
+                        <div class="mb-1 text-muted">Sep 28</div>
                         <p class="mb-auto">
                         </p>
                         <a href="link.php"
-                            class="stretched-link">Open</a>
+                            class="stretched-link">Get</a>
                     </div>
                     
                 </div>

@@ -85,9 +85,14 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 
     </header>
 
-    <div class="col-12 col-sm-6">
-    <h2> Assignments Files </h2>
-</div>
+    <div class="container my-4">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading"> Assignments Files</h2>
+                <p class="lead"></p>
+            </div>
+        </div>
+    </div>
     <div class="container my-4">
         <div class="row mb-2 __web-inspector-hide-shortcut__">
             <div class="col-md-6">
@@ -121,10 +126,16 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
             </div>
         </div>
     </div>
+    <div class="container my-4">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading"> Assignments Videos</h2>
+                <p class="lead"></p>
+            </div>
+        </div>
+    </div>
 
-    <div class="col-12 col-sm-6">
-    <h2> Assignments Videos </h2>
-</div>
+
 
 
     <div class="container my-4">
