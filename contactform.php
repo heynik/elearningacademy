@@ -12,3 +12,4 @@ if (isset($_POST['submit'])) {
     mail($mailto, $txt, $headers);
     header("Location:feedback.php?mailsend");
 }
+?>

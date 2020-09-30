@@ -49,7 +49,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                         <a class="dropdown-item" href="./timetable.php">Time Table</a>
                         
                         <div class="dropdown-divider"></div>
-                       <a class="dropdown-item" href="./feedback.php">Forums</a>
+                       <a class="dropdown-item" href="./feedback.php">Forms</a>
                         <a class="dropdown-item" href="./link.php">Resource links</a>
                     </div>
                 </li>
@@ -156,7 +156,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                     </div>
                     <div class="form-group row">
                         <div class="offset-md-2 col-md-10">
-                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                            <button type="submit" id="submit" name="submit" class="btn btn-primary">Send Feedback</button>
                         </div>
                     </div>
                 </form>
@@ -184,7 +184,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
         <div class="row">
 
             <div class="col-7 col-sm-5">
-                
+            <h2>Conatct Us At</h2>  
                 <address>
                     <br>
 

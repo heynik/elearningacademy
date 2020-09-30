@@ -59,9 +59,12 @@
     <div class="container my-4">
         <div class="row featurette d-flex justify-content-center align-items-center">
             <div class="col-md-7">
-                <h2 class="featurette-heading">ABOUT THE CyberXERX <span class="text-muted">It’ll blow your
+                <h2 class="featurette-heading">ABOUT THE Elearn Academy <span class="text-muted">It’ll blow your
                         mind.</span></h2>
-                <p class="lead"></p>
+                <p class="lead">It is an Indian Elearning Website made for Students by Student.</p>
+                <p class="lead">Founder- Nikhil Yadav</p>
+                <p class="lead">Progate Learner, India </p>
+            
             </div>
             <div class="col-md-5">
                 <div class="col-auto d-none d-lg-block">
@@ -79,44 +82,16 @@
                 </div>
             </div>
             <div class="col-md-5 order-md-2">
-                <h2 class="mt-0 featurette-heading">what we do? <span class="text-muted">It’ll blow your
-                        mind.</span></h2>
-                <p class="lead"></p>
+                <h2 class="mt-0 featurette-heading">What we do? <span class="text-muted"></span></h2>
+                <p class="lead">Helps Students to learn, on your own schedule, your pace, your place.You can cover the material when you have time, go over it as often as you need, all without traveling to the classroom.</p>
             </div>
             
         </div>
     </div>
 
-    <div class="container my-4">
-        <div class="row featurette d-flex justify-content-center align-items-center">
-            <div class="col-md-7 ">
-                <h2 class="featurette-heading">how we help you? <span class="text-muted">It’ll blow your
-                        mind.</span></h2>
-                <p class="lead"></p>
-            </div>
-            <div class="col-md-5">
-                <div class="col-auto d-none d-lg-block">
-                    <img class="bd-placeholder-img" width="500" height="500" src="img/e.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="container my-4">
-        <div class="row featurette d-flex justify-content-center align-items-center">
-            <div class="col-md-7 order-md-1">
-                <div class="col-auto d-none d-lg-block">
-                    <img class="bd-placeholder-img" width="500" height="500" src="img/c.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-md-5 order-md-2">
-                <h2 class="featurette-heading">what we do? <span class="text-muted">It’ll blow your
-                        mind.</span></h2>
-                <p class="lead"></p>
-            </div>
-            
-        </div>
-    </div>
+
+    
 <div>
         <br>
     </div>
@@ -129,7 +104,7 @@
         <div class="row">
 
             <div class="col-7 col-sm-5">
-                
+                <h2>Conatct Us At</h2>
                 <address>
                     <br>
 

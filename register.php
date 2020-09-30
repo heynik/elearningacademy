@@ -188,7 +188,7 @@ mysqli_close($conn);
         <div class="row">
 
             <div class="col-7 col-sm-5">
-                
+            <h2>Conatct Us At</h2>
                 <address>
                     <br>
 

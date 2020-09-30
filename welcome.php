@@ -46,7 +46,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                         <a class="dropdown-item" href="./timetable.php">Time Table</a>
                         
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="./feedback.php">Forums</a>
+                        <a class="dropdown-item" href="./feedback.php">Forms</a>
                         <a class="dropdown-item" href="./link.php">Resource links</a>
                     </div>
                 </li>
@@ -89,7 +89,8 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
             <div class="carousel-item">
                 <img src="./img/5.jpg" class="img-fluid d-block w-10" alt="CyberXERX">
                 <div class="carousel-caption d-none d-md-block">
-                    
+                <h1><?php echo "Welcome ". $_SESSION['username']?>!</h1>
+                    <p></p>
 
                 </div>
             </div>
@@ -97,7 +98,8 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
             <div class="carousel-item">
                 <img src="./img/1.jpg" class="img-fluid d-block w-10" alt="CyberXERX">
                 <div class="carousel-caption d-none d-md-block">
-                   
+                <h1><?php echo "Welcome ". $_SESSION['username']?>!</h1>
+                    <p></p>
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -231,7 +233,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
         <div class="row">
 
             <div class="col-7 col-sm-5">
-                
+            <h2>Conatct Us At</h2>
                 <address>
                     <br>
 

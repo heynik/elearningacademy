@@ -46,7 +46,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                         <a class="dropdown-item" href="./timetable.php">Time Table</a>
                         
                         <div class="dropdown-divider"></div>
-                       <a class="dropdown-item" href="./feedback.php">Forums</a>
+                       <a class="dropdown-item" href="./feedback.php">Forms</a>
                         <a class="dropdown-item" href="./link.php">Resource links</a>
                     </div>
                 </li>
@@ -190,7 +190,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
         <div class="row">
 
             <div class="col-7 col-sm-5">
-                
+            <h2>Conatct Us At</h2>
                 <address>
                     <br>
 
