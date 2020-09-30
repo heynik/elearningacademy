@@ -8,7 +8,7 @@ if (isset($_POST['submit'])) {
 
     $mailto="lexibe1053@yosemail.com";
     $headers="From :".$emailid;
-    $txt="You have received an e-mail from ".$firstname. $lastname.".\n\n".$feedback;
+    $txt="You have received an e-mail from ".$firstname. $lastname. \n\n .$feedback;
     mail($mailto, $txt, $headers);
     header("Location:feedback.php?mailsend");
 }
