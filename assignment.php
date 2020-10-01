@@ -2,10 +2,49 @@
 
 session_start();
 
+$localhost = "localhost"; #localhost
+$dbusername = "root"; #username of phpmyadmin
+$dbpassword = "";  #password of phpmyadmin
+$dbname = "login";  #database name
+ 
+#connection string
+$conn = mysqli_connect($localhost,$dbusername,$dbpassword,$dbname);
+
 if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 {
     header("location: index.php");
 }
+
+
+if (isset($_POST["submit"]))
+ {
+     #retrieve file title
+        $title = $_POST["title"];
+     
+    #file name with a random number so that similar dont get replaced
+     $pname = rand(1000,10000)."-".$_FILES["file"]["name"];
+ 
+    #temporary file name to store file
+    $tname = $_FILES["file"]["tmp_name"];
+   
+     #upload directory path
+$uploads_dir = './img';
+    #TO move the uploaded file to specific location
+    move_uploaded_file($tname, $uploads_dir.'/'.$pname);
+ 
+    #sql query to insert into database
+    $sql = "INSERT into fileup(title,image) VALUES('$title','$pname')";
+ 
+    if(mysqli_query($conn,$sql)){
+ 
+        echo "File Sucessfully uploaded";
+        }
+        else{
+            echo "Error";
+        }
+}
+ 
+
 
 
 ?>
@@ -251,8 +290,27 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                         <div class="mb-1 text-muted">Deadline: Oct 25</div>
                         <p class="card-text mb-auto">
                         </p>
-                        <a href="resources/1.mp4"
-                            class="stretched-link"></a>
+                       <div>
+                       <h5><h/5>
+                       <br>
+                        <form method="post" enctype="multipart/form-data">
+                       <div class="form-group row">
+    
+    
+    <label>Title : </label> 
+    <input type="text" name="title"></div> 
+    <div class="form-group row">
+    <label>File Upload : </label><br>
+    <input type="File" name="file"></div>
+
+    <div class="form-group row">
+    <input type="submit" name="submit"></div>
+   
+
+
+ 
+ 
+</form></div>
                     </div>
                     
                 </div>

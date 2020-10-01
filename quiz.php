@@ -94,7 +94,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                         <strong class="d-inline-block mb-2 text-primary">New</strong>
                         <h3 class="mb-0">Take a Quiz</h3>
                         <div class="mb-1 text-muted">Deadline: Oct 25</div>
-                
+                          
                     </div>
                     
                 </div>
