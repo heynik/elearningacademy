@@ -75,7 +75,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
-                    <h1>Elearning </h1>
+                    <h1>Elearn Academy </h1>
                     <p>Think Smart, Learn Smart, Be Smart!!!</p>
                     <br>
 
@@ -85,10 +85,27 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 
     </header>
 
+    <div class="container my-4">
+        <div class="row mb-2 __web-inspector-hide-shortcut__">
+            <div class="col">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">New</strong>
+                        <h3 class="mb-0">Take a Quiz</h3>
+                        <div class="mb-1 text-muted">Deadline: Oct 25</div>
+                
+                    </div>
+                    
+                </div>
+            </div>
+            
+    </div>
+
      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScKAokHIqRlYoz4LfnocwjQ59OT-UOi34CWdWcSbvhDXhyS6g/viewform?embedded=true" width="640" height="1988" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 
-
+</div>
 
 
     

@@ -75,7 +75,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
-                    <h1>Elearning </h1>
+                    <h1>Elearn Academy </h1>
                     <p>Think Smart, Learn Smart, Be Smart!!!</p>
                     <br>
 

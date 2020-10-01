@@ -146,26 +146,28 @@ mysqli_close($conn);
       <label for="inputPassword4">Confirm Password</label>
       <input type="password" class="form-control" name ="confirm_password" id="inputPassword" placeholder="Confirm Password">
     </div>
+    
   <div class="form-group">
-    <label for="inputAddress2">Address 2</label>
+    <label for="inputAddress2">Address </label>
     <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputCity">City</label>
-      <input type="text" class="form-control" id="inputCity">
+      <input type="text" class="form-control" id="inputCity" placeholder="City">
     </div>
     <div class="form-group col-md-4">
       <label for="inputState">State</label>
       
-          <input type="text" class="form-control" id="inputState">
+          <input type="text" class="form-control" id="inputState" placeholder="State">
     
     </div>
     <div class="form-group col-md-2">
-      <label for="inputZip">Zip</label>
-      <input type="text" class="form-control" id="inputZip">
+      <label for="inputZip">Zip Code</label>
+      <input type="text" class="form-control" id="inputZip" placeholder="Zip code">
     </div>
   </div>
+  
   <div class="form-group">
     <div class="form-check">
       <input class="form-check-input" type="checkbox" id="gridCheck">
