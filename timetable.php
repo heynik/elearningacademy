@@ -20,7 +20,15 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style type="text/css">
+table {
+width: 1200px;
+height: 500px;
+}
 
+
+
+</style>
     <title>Elearn Academy</title>
   </head>
   <body>
@@ -88,20 +96,22 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 
     </header>
 
+
     <br><br>
     <H1><FONT COLOR="purple"><CENTER><u>TIME TABLE</u></FONT></H1>
 <br><br><br>
 <table border="2" cellspacing="3" align="center" bordercolor="brown">
 <tr>
  <td align="center">
- <td>8:30-9:30</td>
- <td>9:30-10:30</td>
- <td>10:30-11:30</td>
- <td>11:30-12:30</td>
- <td>12:30-2:00</td>
- <td>2:00-3:00</td>
- <td>3:00-4:00</td>
- <td>4:00-5:00</td>
+ <td align="center">8:30-9:30</td>
+ <td align="center">9:30-10:30</td>
+ <td align="center">9:30-10:30</td>
+ <td align="center">10:30-11:30</td>
+ <td align="center">11:30-12:30</td>
+ <td align="center">12:30-2:00</td>
+ <td align="center">2:00-3:00</td>
+ <td align="center">3:00-4:00</td>
+ 
 </tr>
 <tr>
  <td align="center">MONDAY</td>
@@ -164,7 +174,9 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
  <td align="center">library</td>
 </tr>
 </table>
-<br><br><br><br><br><br><br>
+
+<br><br><br><br>
+
 <div></div>
 
 
