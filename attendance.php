@@ -30,6 +30,7 @@ if(isset($_POST['submit']))
      
     if ($conn->affected_rows==1) {
         $msg = "Attendance has been added successfully";
+        echo $msg;
     }
 }
 
