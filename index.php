@@ -122,6 +122,7 @@ if(empty($err))
 <div class="container mt-4">
 <h3>Please Login Here:</h3>
 <hr>
+<div class="col-12 col-sm-6">
 
 <form action="" method="post">
   <div class="form-group">
@@ -138,7 +139,7 @@ if(empty($err))
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-
+</div>
 <div>
         <br>
     </div>
